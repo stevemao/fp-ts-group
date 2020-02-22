@@ -1,0 +1,39 @@
+{
+  "name": "fp-ts-group",
+  "version": "1.0.0",
+  "description": "group :: Eq a => [a] -> [[a]]",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "ts-node test.ts",
+    "build": "tsc --declaration --outDir lib index.ts",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevemao/fp-ts-group.git"
+  },
+  "keywords": [
+    "fp-ts",
+    "group",
+    "chop"
+  ],
+  "author": "Steve Mao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevemao/fp-ts-group/issues"
+  },
+  "homepage": "https://github.com/stevemao/fp-ts-group#readme",
+  "peerDependencies": {
+    "fp-ts": "^2.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "fp-ts": "^2.4.4",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
