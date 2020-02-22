@@ -1,7 +1,7 @@
-> group :: Eq a => [a] -> [[a]]
+> fp-ts group and groupBy
 
 ```ts
-import group from 'fp-ts-group'
+import {groupBy} from 'fp-ts-group'
 
-assert.deepStrictEqual(group(eqNumber)([1, 1, 2, 3, 3, 4]), [[1, 1], [2], [3, 3], [4]])
+assert.deepStrictEqual(groupBy(eqNumber)([1, 1, 2, 3, 3, 4]), [[1, 1], [2], [3, 3], [4]])
 ```
